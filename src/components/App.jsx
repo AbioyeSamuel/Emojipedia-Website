@@ -19,8 +19,12 @@ function App(props) {
       <h1>
         <span>emojipedia</span>
       </h1>
-      {emojipedia.map(createEntry)}
-      {/* <Entry emoj={props.emoji} name={props.name} mean={props.meaning} /> */}
+      <div>
+        <dl className="dictionary">
+          {emojipedia.map(createEntry)}
+          {/* <Entry emoj={props.emoji} name={props.name} mean={props.meaning} /> */}
+        </dl>
+      </div>
     </div>
   );
 }
