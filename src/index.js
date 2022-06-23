@@ -6,6 +6,6 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 // (=>) Arrow function Practice.
 var numbers = [3, 56, 2, 48, 5];
-
-const newNumbers = numbers.map((x, y) => x * y);
+// Here's a function written in just one line using => function
+const newNumbers = numbers.map((x) => x * x);
 console.log(newNumbers);
