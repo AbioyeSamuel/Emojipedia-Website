@@ -3,7 +3,14 @@ import Entry from "./Entry";
 import emojipedia from "../emojipedia";
 
 function eachEmoji(emojipedias){
+  id=emojipedias.id;
+  key=emojipedias.id;
+  emoj=emojipedias.emoji;
+  name=emojipedias.name;
+  mean=emojipedias.meaning;
 }
+
+
 function App() {
   return (
     <div>
