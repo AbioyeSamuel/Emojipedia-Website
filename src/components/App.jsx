@@ -13,7 +13,7 @@ function App() {
       </h1>
       <div>
         <dl className="dictionary">
-          {emojipedia.map(eachEmoji => {
+          {emojipedia.map(eachEmoji => (
             <Entry   
       key={emojipedias.id}
       emoj={emojipedias.emoji}
